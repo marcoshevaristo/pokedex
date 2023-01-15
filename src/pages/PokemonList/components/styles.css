@@ -1,0 +1,132 @@
+.pokedex-item-wrapper {
+    background: linear-gradient(125deg, rgba(205,0,0,1) 0%, rgba(255,255,255,1) 100%);
+    padding: 4px;
+    width: 200px;
+    height: 280px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+}
+
+.pokedex-item {
+    height: 100%;
+    width: 100%;
+    background-color: #222;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.pokedex-item:hover {
+    background-color: #666;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.species-name {
+    font-weight: 600;
+    margin: 10px 0px;
+    text-transform: capitalize;
+}
+
+.pokemon-sprite {
+    width: 100px;
+}
+
+.footer {
+    margin-bottom: 20px;
+}
+
+.pokemon-types-wrapper {
+    display: flex;
+    margin-top: 15px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5)
+}
+
+.pokemon-type {
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grass {
+    background: #78C850;
+}
+
+.poison {
+    background: #A040A0;
+}
+
+.fire {
+    background: #F08030;
+}
+
+.flying {
+    background: #A890F0;
+}
+
+.water {
+    background: #6890F0;
+}
+
+.bug {
+    background: #A8B820;
+}
+
+.normal {
+    background: #A8A878;
+}
+
+.dark {
+    background: #705848;
+}
+
+.electric {
+    background: #F8D030;
+}
+
+.physic {
+    background: #F85888;
+}
+
+.ground {
+    background: #E0C068;
+}
+
+.ice {
+    background: #98D8D8;
+}
+
+.steel {
+    background: #B8B8D0;
+}
+
+.fairy {
+    background: #EE99AC;
+}
+
+.fighting {
+    background: #C03028;
+}
+
+.rock {
+    background: #B8A038;
+}
+
+.dragon {
+    background: #7038F8;
+}
+
+.ghost {
+    background: #705898;
+}

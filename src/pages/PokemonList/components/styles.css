@@ -1,15 +1,14 @@
 .pokedex-item-wrapper {
     background: linear-gradient(125deg, rgba(205,0,0,1) 0%, rgba(255,255,255,1) 100%);
     padding: 4px;
-    width: 200px;
-    height: 280px;
+    width: 170px;
+    height: 220px;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
     display: flex;
 }
 
 .pokedex-item {
-    height: 100%;
     width: 100%;
     background-color: #222;
     border-top-left-radius: 15px;
@@ -19,41 +18,30 @@
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
+    padding: 10px 0px;
 }
 
 .pokedex-item:hover {
     background-color: #666;
 }
 
-.header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .species-name {
     font-weight: 600;
-    margin: 10px 0px;
     text-transform: capitalize;
 }
 
 .pokemon-sprite {
-    width: 100px;
-}
-
-.footer {
-    margin-bottom: 20px;
+    max-height: 120px;
 }
 
 .pokemon-types-wrapper {
     display: flex;
-    margin-top: 15px;
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5)
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
 }
 
 .pokemon-type {
-    width: 80px;
-    height: 30px;
+    width: 65px;
+    height: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -95,7 +83,7 @@
     background: #F8D030;
 }
 
-.physic {
+.psychic {
     background: #F85888;
 }
 

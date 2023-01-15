@@ -21,15 +21,5 @@ export async function getPokemons(offset: number, pageSize: number) {
     { headers: { 'Content-Type': 'application/json' } }
   );
 
-  return reduceResponse(response.data.data.getAllPokemon);
-}
-
-function reduceResponse(pokemon: Pokemon[]) {
-  return pokemon.reduce((acc: Pokemon[], curr) => {
-    const isVariation = acc.some((pokemon) => pokemon.num === curr.num);
-    if (isVariation) {
-      return acc;
-    }
-    return acc.concat([curr]);
-  }, [] as Pokemon[]);
+  return response.data.data.getAllPokemon;
 }
